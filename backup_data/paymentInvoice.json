@@ -1,0 +1,464 @@
+[
+{
+  "model": "clients.paymentinvoice",
+  "pk": 16,
+  "fields": {
+    "invoiceNo": "INV-0001",
+    "invoiceOwner": 17,
+    "product": "sepit",
+    "mode": "Mpesa",
+    "date": "2020-08-05",
+    "quantity": 1,
+    "status": "Pending",
+    "payment_made": 0
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 18,
+  "fields": {
+    "invoiceNo": "INV-0003",
+    "invoiceOwner": 20,
+    "product": "Lix",
+    "mode": "Mpesa",
+    "date": "2020-08-05",
+    "quantity": 1,
+    "status": "Pending",
+    "payment_made": 3000
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 19,
+  "fields": {
+    "invoiceNo": "INV-0004",
+    "invoiceOwner": 21,
+    "product": "Lix",
+    "mode": "Mpesa",
+    "date": "2020-08-05",
+    "quantity": 1,
+    "status": "Pending",
+    "payment_made": 3000
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 27,
+  "fields": {
+    "invoiceNo": "INV-0012",
+    "invoiceOwner": 29,
+    "product": "",
+    "mode": "Mpesa",
+    "date": "2020-08-05",
+    "quantity": 1,
+    "status": "Pending",
+    "payment_made": 0
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 29,
+  "fields": {
+    "invoiceNo": "INV-0014",
+    "invoiceOwner": 31,
+    "product": "",
+    "mode": "Mpesa",
+    "date": "2020-08-05",
+    "quantity": 1,
+    "status": "Pending",
+    "payment_made": 0
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 30,
+  "fields": {
+    "invoiceNo": "INV-0015",
+    "invoiceOwner": 31,
+    "product": "Lix",
+    "mode": "Mpesa",
+    "date": "2020-08-05",
+    "quantity": 1,
+    "status": "Pending",
+    "payment_made": 3000
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 31,
+  "fields": {
+    "invoiceNo": "INV-0016",
+    "invoiceOwner": 32,
+    "product": "",
+    "mode": "Mpesa",
+    "date": "2020-08-05",
+    "quantity": 1,
+    "status": "Pending",
+    "payment_made": 0
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 32,
+  "fields": {
+    "invoiceNo": "INV-0017",
+    "invoiceOwner": 32,
+    "product": "Lix",
+    "mode": "Mpesa",
+    "date": "2020-08-05",
+    "quantity": 1,
+    "status": "Pending",
+    "payment_made": 3000
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 42,
+  "fields": {
+    "invoiceNo": "INV-0027",
+    "invoiceOwner": 32,
+    "product": "Lix",
+    "mode": "Mpesa",
+    "date": "2020-08-06",
+    "quantity": 1,
+    "status": "Pending",
+    "payment_made": 3000
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 43,
+  "fields": {
+    "invoiceNo": "INV-0028",
+    "invoiceOwner": 32,
+    "product": "Lix",
+    "mode": "Mpesa",
+    "date": "2020-08-06",
+    "quantity": 1,
+    "status": "Pending",
+    "payment_made": 3000
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 44,
+  "fields": {
+    "invoiceNo": "INV-0029",
+    "invoiceOwner": 17,
+    "product": "Lix",
+    "mode": "Mpesa",
+    "date": "2020-08-06",
+    "quantity": 1,
+    "status": "Pending",
+    "payment_made": 3000
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 45,
+  "fields": {
+    "invoiceNo": "INV-0030",
+    "invoiceOwner": 18,
+    "product": "Lix",
+    "mode": "Mpesa",
+    "date": "2020-08-06",
+    "quantity": 1,
+    "status": "Pending",
+    "payment_made": 3000
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 47,
+  "fields": {
+    "invoiceNo": "INV-0032",
+    "invoiceOwner": 37,
+    "product": "Lix",
+    "mode": "Mpesa",
+    "date": "2020-08-06",
+    "quantity": 1,
+    "status": "Pending",
+    "payment_made": 3000
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 48,
+  "fields": {
+    "invoiceNo": "INV-0033",
+    "invoiceOwner": 37,
+    "product": "Lix",
+    "mode": "Mpesa",
+    "date": "2020-08-06",
+    "quantity": 1,
+    "status": "Pending",
+    "payment_made": 3000
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 51,
+  "fields": {
+    "invoiceNo": "INV-0034",
+    "invoiceOwner": 38,
+    "product": "Lix",
+    "mode": "Mpesa",
+    "date": "2020-08-06",
+    "quantity": 1,
+    "status": "Pending",
+    "payment_made": 3000
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 53,
+  "fields": {
+    "invoiceNo": "INV-0036",
+    "invoiceOwner": 39,
+    "product": "Lix",
+    "mode": "Mpesa",
+    "date": "2020-08-06",
+    "quantity": 1,
+    "status": "Pending",
+    "payment_made": 3000
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 54,
+  "fields": {
+    "invoiceNo": "INV-0037",
+    "invoiceOwner": 17,
+    "product": "Jik",
+    "mode": "Cash",
+    "date": "2020-08-07",
+    "quantity": 1,
+    "status": "Paid",
+    "payment_made": 2000
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 55,
+  "fields": {
+    "invoiceNo": "INV-0038",
+    "invoiceOwner": 18,
+    "product": "Lix",
+    "mode": "Mpesa",
+    "date": "2020-08-07",
+    "quantity": 2,
+    "status": "Paid",
+    "payment_made": 2600
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 56,
+  "fields": {
+    "invoiceNo": "INV-0039",
+    "invoiceOwner": 32,
+    "product": "Sepit",
+    "mode": "Cash",
+    "date": "2020-08-07",
+    "quantity": 2,
+    "status": "Paid",
+    "payment_made": 2500
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 57,
+  "fields": {
+    "invoiceNo": "INV-0040",
+    "invoiceOwner": 32,
+    "product": "Blue",
+    "mode": "Cash",
+    "date": "2020-08-07",
+    "quantity": 1,
+    "status": "Paid",
+    "payment_made": 15000
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 58,
+  "fields": {
+    "invoiceNo": "INV-0041",
+    "invoiceOwner": 17,
+    "product": "Cerrazzo",
+    "mode": "Bank",
+    "date": "2020-08-07",
+    "quantity": 2,
+    "status": "Pending",
+    "payment_made": 5000
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 59,
+  "fields": {
+    "invoiceNo": "INV-0042",
+    "invoiceOwner": 18,
+    "product": "Sepit",
+    "mode": "Cash",
+    "date": "2020-08-07",
+    "quantity": 1,
+    "status": "Paid",
+    "payment_made": 1300
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 60,
+  "fields": {
+    "invoiceNo": "INV-0043",
+    "invoiceOwner": 40,
+    "product": "Cerrazzo",
+    "mode": "Mpesa",
+    "date": "2020-08-07",
+    "quantity": 2,
+    "status": "Paid",
+    "payment_made": 1200
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 61,
+  "fields": {
+    "invoiceNo": "INV-0044",
+    "invoiceOwner": 17,
+    "product": "Jik",
+    "mode": "Bank",
+    "date": "2020-08-07",
+    "quantity": 1,
+    "status": "Pending",
+    "payment_made": 1700
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 62,
+  "fields": {
+    "invoiceNo": "INV-0045",
+    "invoiceOwner": 40,
+    "product": "Bleach",
+    "mode": "Cash",
+    "date": "2020-08-07",
+    "quantity": 1,
+    "status": "Paid",
+    "payment_made": 2600
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 63,
+  "fields": {
+    "invoiceNo": "INV-0046",
+    "invoiceOwner": 32,
+    "product": "Lix",
+    "mode": "Mpesa",
+    "date": "2020-08-07",
+    "quantity": 1,
+    "status": "Paid",
+    "payment_made": 2600
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 64,
+  "fields": {
+    "invoiceNo": "INV-0047",
+    "invoiceOwner": 17,
+    "product": "Sepit",
+    "mode": "Cash",
+    "date": "2020-08-07",
+    "quantity": 2,
+    "status": "Paid",
+    "payment_made": 5600
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 65,
+  "fields": {
+    "invoiceNo": "INV-0048",
+    "invoiceOwner": 18,
+    "product": "Jik",
+    "mode": "Mpesa",
+    "date": "2020-08-07",
+    "quantity": 1,
+    "status": "Paid",
+    "payment_made": 1200
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 66,
+  "fields": {
+    "invoiceNo": "INV-0049",
+    "invoiceOwner": 32,
+    "product": "Sepit",
+    "mode": "Bank",
+    "date": "2020-08-07",
+    "quantity": 2,
+    "status": "Pending",
+    "payment_made": 10000
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 67,
+  "fields": {
+    "invoiceNo": "INV-0050",
+    "invoiceOwner": 31,
+    "product": "Jik",
+    "mode": "Bank",
+    "date": "2020-08-07",
+    "quantity": 1,
+    "status": "Pending",
+    "payment_made": 1000
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 68,
+  "fields": {
+    "invoiceNo": "INV-0051",
+    "invoiceOwner": 17,
+    "product": "Sepit",
+    "mode": "Mpesa",
+    "date": "2020-08-07",
+    "quantity": 1,
+    "status": "Paid",
+    "payment_made": 5000
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 69,
+  "fields": {
+    "invoiceNo": "INV-0052",
+    "invoiceOwner": 17,
+    "product": "Sepit",
+    "mode": "Mpesa",
+    "date": "2020-08-07",
+    "quantity": 1,
+    "status": "Paid",
+    "payment_made": 3600
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 70,
+  "fields": {
+    "invoiceNo": "INV-0053",
+    "invoiceOwner": 32,
+    "product": "Lix",
+    "mode": "Mpesa",
+    "date": "2020-08-08",
+    "quantity": 1,
+    "status": "Paid",
+    "payment_made": 3000
+  }
+}
+]

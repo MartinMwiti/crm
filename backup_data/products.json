@@ -1,0 +1,106 @@
+[
+  {
+    "model": "product.product",
+    "pk": 1,
+    "fields": {
+      "name": "Lix",
+      "available": true,
+      "description": "",
+      "image": "default_product.jpg",
+      "category": "Bleach",
+      "qty_amount": "5L",
+      "price": 400
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 2,
+    "fields": {
+      "name": "Sepit",
+      "available": true,
+      "description": "",
+      "image": "default_product.jpg",
+      "category": "Handwash",
+      "qty_amount": "20L",
+      "price": 1600
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 3,
+    "fields": {
+      "name": "Taco",
+      "available": true,
+      "description": "",
+      "image": "default_product.jpg",
+      "category": "Multi-Purpose",
+      "qty_amount": "20L",
+      "price": 1600
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 4,
+    "fields": {
+      "name": "Ezin",
+      "available": true,
+      "description": "",
+      "image": "default_product.jpg",
+      "category": "Laundry",
+      "qty_amount": "20L",
+      "price": 1600
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 5,
+    "fields": {
+      "name": "Elesept",
+      "available": true,
+      "description": "",
+      "image": "default_product.jpg",
+      "category": "Disinfectants",
+      "qty_amount": "20L",
+      "price": 1600
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 6,
+    "fields": {
+      "name": "Cerrazo",
+      "available": true,
+      "description": "",
+      "image": "default_product.jpg",
+      "category": "House",
+      "qty_amount": "20L",
+      "price": 1600
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 7,
+    "fields": {
+      "name": "Jik",
+      "available": true,
+      "description": "",
+      "image": "default_product.jpg",
+      "category": "Multi-Purpose",
+      "qty_amount": "250ml",
+      "price": 500
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 8,
+    "fields": {
+      "name": "Tossa",
+      "available": true,
+      "description": "Best",
+      "image": "default_product.jpg",
+      "category": "Cleaning",
+      "qty_amount": "250ml",
+      "price": 200
+    }
+  }
+]

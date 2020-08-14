@@ -1,0 +1,30 @@
+[
+{
+  "model": "clients.purchasershippingdetail",
+  "pk": 1,
+  "fields": {
+    "frequent_customer": false,
+    "owner": "Becky",
+    "address": "",
+    "zip_code": "",
+    "description": "",
+    "county": "Nairobi",
+    "location": "Machakos",
+    "country": "Kenya"
+  }
+},
+{
+  "model": "clients.purchasershippingdetail",
+  "pk": 2,
+  "fields": {
+    "frequent_customer": false,
+    "owner": "Martin",
+    "address": "",
+    "zip_code": "",
+    "description": "",
+    "county": "Nairobi",
+    "location": "Machakos",
+    "country": "Kenya"
+  }
+}
+]

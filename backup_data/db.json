@@ -1,0 +1,1017 @@
+[
+{
+  "model": "accounts.customuser",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$nTFsRXXdtqDT$uNkyt1l+wn4cm2+ccuvFeSyJPYmU7x0bckD4lTOu4gQ=",
+    "last_login": "2020-07-23T11:58:49Z",
+    "is_superuser": false,
+    "email": "sn.mso777@gmail.com",
+    "name": "Mso",
+    "is_active": true,
+    "is_staff": false,
+    "date_joined": "2020-07-23",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$eAU0Ooocs8es$AznciwYKF1rGfYDEuXg6rqyP4nZdq2yubQ6Kr/fkitQ=",
+    "last_login": "2020-08-09T10:14:38.138Z",
+    "is_superuser": true,
+    "email": "admin@test.com",
+    "name": "Admin",
+    "is_active": true,
+    "is_staff": true,
+    "date_joined": "2020-07-23",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$icmQQGpUoD9A$wnwUMzJaoTfGc95yAAYOtMX0390S3Ld0tePf5l3FhLQ=",
+    "last_login": null,
+    "is_superuser": false,
+    "email": "martinmwiti777@gmail.com",
+    "name": "Martin",
+    "is_active": true,
+    "is_staff": false,
+    "date_joined": "2020-07-23",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.employeeprofile",
+  "pk": 1,
+  "fields": {
+    "image": "default.png",
+    "user": 1,
+    "phone_no": "0711111111",
+    "description": "Dedicated",
+    "location": "Mombasa-Nyali",
+    "department": "",
+    "job_title": "",
+    "date_employed": "2020-07-23"
+  }
+},
+{
+  "model": "accounts.employeeprofile",
+  "pk": 5,
+  "fields": {
+    "image": "default.png",
+    "user": 3,
+    "phone_no": "0722334455",
+    "description": "",
+    "location": "Nairobi",
+    "department": "",
+    "job_title": "",
+    "date_employed": "2020-07-23"
+  }
+},
+{
+  "model": "accounts.employeeprofile",
+  "pk": 7,
+  "fields": {
+    "image": "default.png",
+    "user": 7,
+    "phone_no": "0711457689",
+    "description": "",
+    "location": "",
+    "department": "",
+    "job_title": "",
+    "date_employed": "2020-08-04"
+  }
+},
+{
+  "model": "accounts.employeedetails",
+  "pk": 7,
+  "fields": {
+    "name": "Martin",
+    "phone_no": "0711457689",
+    "email": "martin@test.com",
+    "description": "",
+    "department": "IT",
+    "job_title": "Consultant",
+    "salary": 150000,
+    "date_employed": "2020-07-28",
+    "is_manager": false
+  }
+},
+{
+  "model": "accounts.employeedetails",
+  "pk": 12,
+  "fields": {
+    "name": "Jules",
+    "phone_no": "0755555555",
+    "email": "jules@test.com",
+    "description": "",
+    "department": "Sales",
+    "job_title": "Manager",
+    "salary": 150000,
+    "date_employed": "2020-07-31",
+    "is_manager": false
+  }
+},
+{
+  "model": "accounts.employeedetails",
+  "pk": 13,
+  "fields": {
+    "name": "Nancy",
+    "phone_no": "0766666666",
+    "email": "nancy@test.com",
+    "description": "",
+    "department": "HR",
+    "job_title": "Accountant",
+    "salary": 150000,
+    "date_employed": "2020-07-31",
+    "is_manager": false
+  }
+},
+{
+  "model": "accounts.employeedetails",
+  "pk": 14,
+  "fields": {
+    "name": "Michael",
+    "phone_no": "0777777777",
+    "email": "michael@test.com",
+    "description": "",
+    "department": "Store",
+    "job_title": "CEO",
+    "salary": 150000,
+    "date_employed": "2020-07-31",
+    "is_manager": false
+  }
+},
+{
+  "model": "accounts.employeedetails",
+  "pk": 16,
+  "fields": {
+    "name": "Mike",
+    "phone_no": "0799999999",
+    "email": "mike@test.com",
+    "description": null,
+    "department": "Executive",
+    "job_title": "Manager",
+    "salary": 300000,
+    "date_employed": "2020-07-31",
+    "is_manager": false
+  }
+},
+{
+  "model": "accounts.employeedetails",
+  "pk": 18,
+  "fields": {
+    "name": "Jamie",
+    "phone_no": "073524352",
+    "email": "jamie@test.com",
+    "description": null,
+    "department": "IT",
+    "job_title": "Jnr",
+    "salary": 70000,
+    "date_employed": "2020-08-07",
+    "is_manager": false
+  }
+},
+{
+  "model": "accounts.employeedetails",
+  "pk": 19,
+  "fields": {
+    "name": "Josh",
+    "phone_no": "0744332211",
+    "email": "josh@gmail.com",
+    "description": null,
+    "department": "Customer Care",
+    "job_title": "Jnr",
+    "salary": 75000,
+    "date_employed": "2020-08-08",
+    "is_manager": false
+  }
+},
+{
+  "model": "accounts.employeedetails",
+  "pk": 20,
+  "fields": {
+    "name": "Esther",
+    "phone_no": "0799887766",
+    "email": "esther@gmail.com",
+    "description": null,
+    "department": "Sales",
+    "job_title": "Jnr",
+    "salary": 60000,
+    "date_employed": "2020-08-08",
+    "is_manager": false
+  }
+},
+{
+  "model": "accounts.employeedetails",
+  "pk": 21,
+  "fields": {
+    "name": "Elsie",
+    "phone_no": "0788776655",
+    "email": "elsie@gmail.com",
+    "description": null,
+    "department": "Sales",
+    "job_title": "Jnr",
+    "salary": 65000,
+    "date_employed": "2020-08-08",
+    "is_manager": false
+  }
+},
+{
+  "model": "accounts.employeedetails",
+  "pk": 22,
+  "fields": {
+    "name": "Megan",
+    "phone_no": "0766554433",
+    "email": "megan@test.com",
+    "description": null,
+    "department": "Finance",
+    "job_title": "Jnr",
+    "salary": 20000,
+    "date_employed": "2020-08-08",
+    "is_manager": false
+  }
+},
+{
+  "model": "accounts.employeedetails",
+  "pk": 23,
+  "fields": {
+    "name": "Jesse",
+    "phone_no": "0722332244",
+    "email": "jesse@gmail.com",
+    "description": null,
+    "department": "Sales",
+    "job_title": "Jnr",
+    "salary": 30000,
+    "date_employed": "2020-08-08",
+    "is_manager": false
+  }
+},
+{
+  "model": "accounts.employeedetails",
+  "pk": 24,
+  "fields": {
+    "name": "Dennis",
+    "phone_no": "0738764762",
+    "email": "dennis@gmail.com",
+    "description": null,
+    "department": "Finance",
+    "job_title": "Jnr",
+    "salary": 40000,
+    "date_employed": "2020-08-09",
+    "is_manager": false
+  }
+},
+{
+  "model": "accounts.employeedetails",
+  "pk": 25,
+  "fields": {
+    "name": "Jane",
+    "phone_no": "076655438",
+    "email": "jane@test.com",
+    "description": null,
+    "department": "Sales",
+    "job_title": "Sr",
+    "salary": 80000,
+    "date_employed": "2020-08-09",
+    "is_manager": false
+  }
+},
+{
+  "model": "accounts.employeedetails",
+  "pk": 26,
+  "fields": {
+    "name": "Jerry",
+    "phone_no": "0735625378",
+    "email": "jerry@test.com",
+    "description": null,
+    "department": "Security",
+    "job_title": "Sr",
+    "salary": 30000,
+    "date_employed": "2020-08-09",
+    "is_manager": false
+  }
+},
+{
+  "model": "product.product",
+  "pk": 1,
+  "fields": {
+    "name": "Lix",
+    "available": true,
+    "description": "",
+    "image": "default_product.jpg",
+    "category": "bleach",
+    "qty_amount": "5L",
+    "price": 400
+  }
+},
+{
+  "model": "product.product",
+  "pk": 2,
+  "fields": {
+    "name": "Sepit",
+    "available": true,
+    "description": "",
+    "image": "default_product.jpg",
+    "category": "Handwash",
+    "qty_amount": "20L",
+    "price": 1600
+  }
+},
+{
+  "model": "product.product",
+  "pk": 3,
+  "fields": {
+    "name": "Taco",
+    "available": true,
+    "description": "",
+    "image": "default_product.jpg",
+    "category": "Multi-Purpose",
+    "qty_amount": "20L",
+    "price": 1600
+  }
+},
+{
+  "model": "product.product",
+  "pk": 4,
+  "fields": {
+    "name": "Ezin",
+    "available": true,
+    "description": "",
+    "image": "default_product.jpg",
+    "category": "Laundry",
+    "qty_amount": "20L",
+    "price": 1600
+  }
+},
+{
+  "model": "product.product",
+  "pk": 5,
+  "fields": {
+    "name": "Elesept",
+    "available": true,
+    "description": "",
+    "image": "default_product.jpg",
+    "category": "Disinfectants",
+    "qty_amount": "20L",
+    "price": 1600
+  }
+},
+{
+  "model": "product.product",
+  "pk": 6,
+  "fields": {
+    "name": "Cerrazo",
+    "available": true,
+    "description": "",
+    "image": "default_product.jpg",
+    "category": "House",
+    "qty_amount": "20L",
+    "price": 1600
+  }
+},
+{
+  "model": "product.product",
+  "pk": 7,
+  "fields": {
+    "name": "Jik",
+    "available": true,
+    "description": "",
+    "image": "default_product.jpg",
+    "category": "Multi-Purpose",
+    "qty_amount": "250ml",
+    "price": 500
+  }
+},
+{
+  "model": "product.product",
+  "pk": 8,
+  "fields": {
+    "name": "Tossa",
+    "available": true,
+    "description": "Best",
+    "image": "default_product.jpg",
+    "category": "Cleaning",
+    "qty_amount": "250ml",
+    "price": 200
+  }
+},
+{
+  "model": "clients.purchaser",
+  "pk": 17,
+  "fields": {
+    "name": "Martin",
+    "phone": "0711457689",
+    "email": "martin@test.com",
+    "image": "default.png",
+    "data_added": "2020-08-05"
+  }
+},
+{
+  "model": "clients.purchaser",
+  "pk": 18,
+  "fields": {
+    "name": "Becky",
+    "phone": "0722334455",
+    "email": "becky@test.com",
+    "image": "default.png",
+    "data_added": "2020-08-05"
+  }
+},
+{
+  "model": "clients.purchaser",
+  "pk": 20,
+  "fields": {
+    "name": "Peter",
+    "phone": "12",
+    "email": null,
+    "image": "default.png",
+    "data_added": "2020-08-05"
+  }
+},
+{
+  "model": "clients.purchaser",
+  "pk": 21,
+  "fields": {
+    "name": "James",
+    "phone": "12",
+    "email": null,
+    "image": "default.png",
+    "data_added": "2020-08-05"
+  }
+},
+{
+  "model": "clients.purchaser",
+  "pk": 29,
+  "fields": {
+    "name": "Michael",
+    "phone": "12",
+    "email": null,
+    "image": "default.png",
+    "data_added": "2020-08-05"
+  }
+},
+{
+  "model": "clients.purchaser",
+  "pk": 31,
+  "fields": {
+    "name": "Naomy",
+    "phone": "",
+    "email": null,
+    "image": "default.png",
+    "data_added": "2020-08-05"
+  }
+},
+{
+  "model": "clients.purchaser",
+  "pk": 32,
+  "fields": {
+    "name": "Jose",
+    "phone": "",
+    "email": null,
+    "image": "default.png",
+    "data_added": "2020-08-05"
+  }
+},
+{
+  "model": "clients.purchaser",
+  "pk": 37,
+  "fields": {
+    "name": "Steve",
+    "phone": "",
+    "email": null,
+    "image": "default.png",
+    "data_added": "2020-08-06"
+  }
+},
+{
+  "model": "clients.purchaser",
+  "pk": 38,
+  "fields": {
+    "name": "Nash",
+    "phone": "",
+    "email": null,
+    "image": "default.png",
+    "data_added": "2020-08-06"
+  }
+},
+{
+  "model": "clients.purchaser",
+  "pk": 39,
+  "fields": {
+    "name": "Tez",
+    "phone": "",
+    "email": null,
+    "image": "default.png",
+    "data_added": "2020-08-06"
+  }
+},
+{
+  "model": "clients.purchaser",
+  "pk": 40,
+  "fields": {
+    "name": "Maggy",
+    "phone": "",
+    "email": null,
+    "image": "default.png",
+    "data_added": "2020-08-07"
+  }
+},
+{
+  "model": "clients.purchasershippingdetail",
+  "pk": 1,
+  "fields": {
+    "frequent_customer": false,
+    "owner": "Becky",
+    "address": "",
+    "zip_code": "",
+    "description": "",
+    "county": "Nairobi",
+    "location": "Machakos",
+    "country": "Kenya"
+  }
+},
+{
+  "model": "clients.purchasershippingdetail",
+  "pk": 2,
+  "fields": {
+    "frequent_customer": false,
+    "owner": "Martin",
+    "address": "",
+    "zip_code": "",
+    "description": "",
+    "county": "Nairobi",
+    "location": "Machakos",
+    "country": "Kenya"
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 16,
+  "fields": {
+    "invoiceNo": "INV-0001",
+    "invoiceOwner": 17,
+    "product": "sepit",
+    "mode": "Mpesa",
+    "date": "2020-08-05",
+    "quantity": 1,
+    "status": "Pending",
+    "payment_made": 0
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 18,
+  "fields": {
+    "invoiceNo": "INV-0003",
+    "invoiceOwner": 20,
+    "product": "Lix",
+    "mode": "Mpesa",
+    "date": "2020-08-05",
+    "quantity": 1,
+    "status": "Pending",
+    "payment_made": 3000
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 19,
+  "fields": {
+    "invoiceNo": "INV-0004",
+    "invoiceOwner": 21,
+    "product": "Lix",
+    "mode": "Mpesa",
+    "date": "2020-08-05",
+    "quantity": 1,
+    "status": "Pending",
+    "payment_made": 3000
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 27,
+  "fields": {
+    "invoiceNo": "INV-0012",
+    "invoiceOwner": 29,
+    "product": "",
+    "mode": "Mpesa",
+    "date": "2020-08-05",
+    "quantity": 1,
+    "status": "Pending",
+    "payment_made": 0
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 29,
+  "fields": {
+    "invoiceNo": "INV-0014",
+    "invoiceOwner": 31,
+    "product": "",
+    "mode": "Mpesa",
+    "date": "2020-08-05",
+    "quantity": 1,
+    "status": "Pending",
+    "payment_made": 0
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 30,
+  "fields": {
+    "invoiceNo": "INV-0015",
+    "invoiceOwner": 31,
+    "product": "Lix",
+    "mode": "Mpesa",
+    "date": "2020-08-05",
+    "quantity": 1,
+    "status": "Pending",
+    "payment_made": 3000
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 31,
+  "fields": {
+    "invoiceNo": "INV-0016",
+    "invoiceOwner": 32,
+    "product": "",
+    "mode": "Mpesa",
+    "date": "2020-08-05",
+    "quantity": 1,
+    "status": "Pending",
+    "payment_made": 0
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 32,
+  "fields": {
+    "invoiceNo": "INV-0017",
+    "invoiceOwner": 32,
+    "product": "Lix",
+    "mode": "Mpesa",
+    "date": "2020-08-05",
+    "quantity": 1,
+    "status": "Pending",
+    "payment_made": 3000
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 42,
+  "fields": {
+    "invoiceNo": "INV-0027",
+    "invoiceOwner": 32,
+    "product": "Lix",
+    "mode": "Mpesa",
+    "date": "2020-08-06",
+    "quantity": 1,
+    "status": "Pending",
+    "payment_made": 3000
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 43,
+  "fields": {
+    "invoiceNo": "INV-0028",
+    "invoiceOwner": 32,
+    "product": "Lix",
+    "mode": "Mpesa",
+    "date": "2020-08-06",
+    "quantity": 1,
+    "status": "Pending",
+    "payment_made": 3000
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 44,
+  "fields": {
+    "invoiceNo": "INV-0029",
+    "invoiceOwner": 17,
+    "product": "Lix",
+    "mode": "Mpesa",
+    "date": "2020-08-06",
+    "quantity": 1,
+    "status": "Pending",
+    "payment_made": 3000
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 45,
+  "fields": {
+    "invoiceNo": "INV-0030",
+    "invoiceOwner": 18,
+    "product": "Lix",
+    "mode": "Mpesa",
+    "date": "2020-08-06",
+    "quantity": 1,
+    "status": "Pending",
+    "payment_made": 3000
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 47,
+  "fields": {
+    "invoiceNo": "INV-0032",
+    "invoiceOwner": 37,
+    "product": "Lix",
+    "mode": "Mpesa",
+    "date": "2020-08-06",
+    "quantity": 1,
+    "status": "Pending",
+    "payment_made": 3000
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 48,
+  "fields": {
+    "invoiceNo": "INV-0033",
+    "invoiceOwner": 37,
+    "product": "Lix",
+    "mode": "Mpesa",
+    "date": "2020-08-06",
+    "quantity": 1,
+    "status": "Pending",
+    "payment_made": 3000
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 51,
+  "fields": {
+    "invoiceNo": "INV-0034",
+    "invoiceOwner": 38,
+    "product": "Lix",
+    "mode": "Mpesa",
+    "date": "2020-08-06",
+    "quantity": 1,
+    "status": "Pending",
+    "payment_made": 3000
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 53,
+  "fields": {
+    "invoiceNo": "INV-0036",
+    "invoiceOwner": 39,
+    "product": "Lix",
+    "mode": "Mpesa",
+    "date": "2020-08-06",
+    "quantity": 1,
+    "status": "Pending",
+    "payment_made": 3000
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 54,
+  "fields": {
+    "invoiceNo": "INV-0037",
+    "invoiceOwner": 17,
+    "product": "Jik",
+    "mode": "Cash",
+    "date": "2020-08-07",
+    "quantity": 1,
+    "status": "Paid",
+    "payment_made": 2000
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 55,
+  "fields": {
+    "invoiceNo": "INV-0038",
+    "invoiceOwner": 18,
+    "product": "Lix",
+    "mode": "Mpesa",
+    "date": "2020-08-07",
+    "quantity": 2,
+    "status": "Paid",
+    "payment_made": 2600
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 56,
+  "fields": {
+    "invoiceNo": "INV-0039",
+    "invoiceOwner": 32,
+    "product": "Sepit",
+    "mode": "Cash",
+    "date": "2020-08-07",
+    "quantity": 2,
+    "status": "Paid",
+    "payment_made": 2500
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 57,
+  "fields": {
+    "invoiceNo": "INV-0040",
+    "invoiceOwner": 32,
+    "product": "Blue",
+    "mode": "Cash",
+    "date": "2020-08-07",
+    "quantity": 1,
+    "status": "Paid",
+    "payment_made": 15000
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 58,
+  "fields": {
+    "invoiceNo": "INV-0041",
+    "invoiceOwner": 17,
+    "product": "Cerrazzo",
+    "mode": "Bank",
+    "date": "2020-08-07",
+    "quantity": 2,
+    "status": "Pending",
+    "payment_made": 5000
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 59,
+  "fields": {
+    "invoiceNo": "INV-0042",
+    "invoiceOwner": 18,
+    "product": "Sepit",
+    "mode": "Cash",
+    "date": "2020-08-07",
+    "quantity": 1,
+    "status": "Paid",
+    "payment_made": 1300
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 60,
+  "fields": {
+    "invoiceNo": "INV-0043",
+    "invoiceOwner": 40,
+    "product": "Cerrazzo",
+    "mode": "Mpesa",
+    "date": "2020-08-07",
+    "quantity": 2,
+    "status": "Paid",
+    "payment_made": 1200
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 61,
+  "fields": {
+    "invoiceNo": "INV-0044",
+    "invoiceOwner": 17,
+    "product": "Jik",
+    "mode": "Bank",
+    "date": "2020-08-07",
+    "quantity": 1,
+    "status": "Pending",
+    "payment_made": 1700
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 62,
+  "fields": {
+    "invoiceNo": "INV-0045",
+    "invoiceOwner": 40,
+    "product": "Bleach",
+    "mode": "Cash",
+    "date": "2020-08-07",
+    "quantity": 1,
+    "status": "Paid",
+    "payment_made": 2600
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 63,
+  "fields": {
+    "invoiceNo": "INV-0046",
+    "invoiceOwner": 32,
+    "product": "Lix",
+    "mode": "Mpesa",
+    "date": "2020-08-07",
+    "quantity": 1,
+    "status": "Paid",
+    "payment_made": 2600
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 64,
+  "fields": {
+    "invoiceNo": "INV-0047",
+    "invoiceOwner": 17,
+    "product": "Sepit",
+    "mode": "Cash",
+    "date": "2020-08-07",
+    "quantity": 2,
+    "status": "Paid",
+    "payment_made": 5600
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 65,
+  "fields": {
+    "invoiceNo": "INV-0048",
+    "invoiceOwner": 18,
+    "product": "Jik",
+    "mode": "Mpesa",
+    "date": "2020-08-07",
+    "quantity": 1,
+    "status": "Paid",
+    "payment_made": 1200
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 66,
+  "fields": {
+    "invoiceNo": "INV-0049",
+    "invoiceOwner": 32,
+    "product": "Sepit",
+    "mode": "Bank",
+    "date": "2020-08-07",
+    "quantity": 2,
+    "status": "Pending",
+    "payment_made": 10000
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 67,
+  "fields": {
+    "invoiceNo": "INV-0050",
+    "invoiceOwner": 31,
+    "product": "Jik",
+    "mode": "Bank",
+    "date": "2020-08-07",
+    "quantity": 1,
+    "status": "Pending",
+    "payment_made": 1000
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 68,
+  "fields": {
+    "invoiceNo": "INV-0051",
+    "invoiceOwner": 17,
+    "product": "Sepit",
+    "mode": "Mpesa",
+    "date": "2020-08-07",
+    "quantity": 1,
+    "status": "Paid",
+    "payment_made": 5000
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 69,
+  "fields": {
+    "invoiceNo": "INV-0052",
+    "invoiceOwner": 17,
+    "product": "Sepit",
+    "mode": "Mpesa",
+    "date": "2020-08-07",
+    "quantity": 1,
+    "status": "Paid",
+    "payment_made": 3600
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 70,
+  "fields": {
+    "invoiceNo": "INV-0053",
+    "invoiceOwner": 32,
+    "product": "Lix",
+    "mode": "Mpesa",
+    "date": "2020-08-08",
+    "quantity": 1,
+    "status": "Paid",
+    "payment_made": 3000
+  }
+}
+]

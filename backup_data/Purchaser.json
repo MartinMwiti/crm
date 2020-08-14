@@ -1,0 +1,123 @@
+[
+{
+  "model": "clients.purchaser",
+  "pk": 17,
+  "fields": {
+    "name": "Martin",
+    "phone": "0711457689",
+    "email": "martin@test.com",
+    "image": "default.png",
+    "data_added": "2020-08-05"
+  }
+},
+{
+  "model": "clients.purchaser",
+  "pk": 18,
+  "fields": {
+    "name": "Becky",
+    "phone": "0722334455",
+    "email": "becky@test.com",
+    "image": "default.png",
+    "data_added": "2020-08-05"
+  }
+},
+{
+  "model": "clients.purchaser",
+  "pk": 20,
+  "fields": {
+    "name": "Peter",
+    "phone": "12",
+    "email": null,
+    "image": "default.png",
+    "data_added": "2020-08-05"
+  }
+},
+{
+  "model": "clients.purchaser",
+  "pk": 21,
+  "fields": {
+    "name": "James",
+    "phone": "12",
+    "email": null,
+    "image": "default.png",
+    "data_added": "2020-08-05"
+  }
+},
+{
+  "model": "clients.purchaser",
+  "pk": 29,
+  "fields": {
+    "name": "Michael",
+    "phone": "12",
+    "email": null,
+    "image": "default.png",
+    "data_added": "2020-08-05"
+  }
+},
+{
+  "model": "clients.purchaser",
+  "pk": 31,
+  "fields": {
+    "name": "Naomy",
+    "phone": "",
+    "email": null,
+    "image": "default.png",
+    "data_added": "2020-08-05"
+  }
+},
+{
+  "model": "clients.purchaser",
+  "pk": 32,
+  "fields": {
+    "name": "Jose",
+    "phone": "",
+    "email": null,
+    "image": "default.png",
+    "data_added": "2020-08-05"
+  }
+},
+{
+  "model": "clients.purchaser",
+  "pk": 37,
+  "fields": {
+    "name": "Steve",
+    "phone": "",
+    "email": null,
+    "image": "default.png",
+    "data_added": "2020-08-06"
+  }
+},
+{
+  "model": "clients.purchaser",
+  "pk": 38,
+  "fields": {
+    "name": "Nash",
+    "phone": "",
+    "email": null,
+    "image": "default.png",
+    "data_added": "2020-08-06"
+  }
+},
+{
+  "model": "clients.purchaser",
+  "pk": 39,
+  "fields": {
+    "name": "Tez",
+    "phone": "",
+    "email": null,
+    "image": "default.png",
+    "data_added": "2020-08-06"
+  }
+},
+{
+  "model": "clients.purchaser",
+  "pk": 40,
+  "fields": {
+    "name": "Maggy",
+    "phone": "",
+    "email": null,
+    "image": "default.png",
+    "data_added": "2020-08-07"
+  }
+}
+]

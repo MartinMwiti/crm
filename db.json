@@ -1,0 +1,382 @@
+[
+{
+  "model": "accounts.customuser",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$nTFsRXXdtqDT$uNkyt1l+wn4cm2+ccuvFeSyJPYmU7x0bckD4lTOu4gQ=",
+    "last_login": "2020-07-23T11:58:49Z",
+    "is_superuser": false,
+    "email": "sn.mso777@gmail.com",
+    "name": "Mso",
+    "is_active": true,
+    "is_staff": false,
+    "date_joined": "2020-07-23",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$eAU0Ooocs8es$AznciwYKF1rGfYDEuXg6rqyP4nZdq2yubQ6Kr/fkitQ=",
+    "last_login": "2020-08-04T14:24:38.944Z",
+    "is_superuser": true,
+    "email": "admin@test.com",
+    "name": "Admin",
+    "is_active": true,
+    "is_staff": true,
+    "date_joined": "2020-07-23",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.customuser",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$icmQQGpUoD9A$wnwUMzJaoTfGc95yAAYOtMX0390S3Ld0tePf5l3FhLQ=",
+    "last_login": null,
+    "is_superuser": false,
+    "email": "martinmwiti777@gmail.com",
+    "name": "Martin",
+    "is_active": true,
+    "is_staff": false,
+    "date_joined": "2020-07-23",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.employeeprofile",
+  "pk": 1,
+  "fields": {
+    "image": "default.png",
+    "user": 1,
+    "phone_no": "0711111111",
+    "description": "Dedicated",
+    "location": "Mombasa-Nyali",
+    "department": "",
+    "job_title": "",
+    "date_employed": "2020-07-23"
+  }
+},
+{
+  "model": "accounts.employeeprofile",
+  "pk": 5,
+  "fields": {
+    "image": "default.png",
+    "user": 3,
+    "phone_no": "0722334455",
+    "description": "",
+    "location": "Nairobi",
+    "department": "",
+    "job_title": "",
+    "date_employed": "2020-07-23"
+  }
+},
+{
+  "model": "accounts.employeeprofile",
+  "pk": 7,
+  "fields": {
+    "image": "default.png",
+    "user": 7,
+    "phone_no": "0711457689",
+    "description": "",
+    "location": "",
+    "department": "",
+    "job_title": "",
+    "date_employed": "2020-08-04"
+  }
+},
+{
+  "model": "accounts.employeedetails",
+  "pk": 7,
+  "fields": {
+    "name": "Martin",
+    "phone_no": "0711457689",
+    "email": "martin@test.com",
+    "description": "",
+    "department": "IT",
+    "job_title": "Consultant",
+    "salary": 150000,
+    "date_employed": "2020-07-28",
+    "is_manager": false
+  }
+},
+{
+  "model": "accounts.employeedetails",
+  "pk": 12,
+  "fields": {
+    "name": "Jules",
+    "phone_no": "0755555555",
+    "email": "jules@test.com",
+    "description": "",
+    "department": "Sales",
+    "job_title": "Manager",
+    "salary": 150000,
+    "date_employed": "2020-07-31",
+    "is_manager": false
+  }
+},
+{
+  "model": "accounts.employeedetails",
+  "pk": 13,
+  "fields": {
+    "name": "Nancy",
+    "phone_no": "0766666666",
+    "email": "nancy@test.com",
+    "description": "",
+    "department": "HR",
+    "job_title": "Accountant",
+    "salary": 150000,
+    "date_employed": "2020-07-31",
+    "is_manager": false
+  }
+},
+{
+  "model": "accounts.employeedetails",
+  "pk": 14,
+  "fields": {
+    "name": "Michael",
+    "phone_no": "0777777777",
+    "email": "michael@test.com",
+    "description": "",
+    "department": "Store",
+    "job_title": "CEO",
+    "salary": 150000,
+    "date_employed": "2020-07-31",
+    "is_manager": false
+  }
+},
+{
+  "model": "accounts.employeedetails",
+  "pk": 16,
+  "fields": {
+    "name": "Mike",
+    "phone_no": "0799999999",
+    "email": "mike@test.com",
+    "description": null,
+    "department": "Executive",
+    "job_title": "Manager",
+    "salary": 300000,
+    "date_employed": "2020-07-31",
+    "is_manager": false
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1,
+  "fields": {
+    "slug": "elex_lix",
+    "name": "Lix",
+    "available": true,
+    "description": "",
+    "image": "default_product.jpg",
+    "category": "bleach",
+    "qty_amount": "5L",
+    "price": 400
+  }
+},
+{
+  "model": "products.product",
+  "pk": 2,
+  "fields": {
+    "slug": "elex_sepit",
+    "name": "Sepit",
+    "available": true,
+    "description": "",
+    "image": "default_product.jpg",
+    "category": "Handwash",
+    "qty_amount": "20L",
+    "price": 1600
+  }
+},
+{
+  "model": "products.product",
+  "pk": 3,
+  "fields": {
+    "slug": "elex_taco",
+    "name": "Taco",
+    "available": true,
+    "description": "",
+    "image": "default_product.jpg",
+    "category": "Multi-Purpose",
+    "qty_amount": "20L",
+    "price": 1600
+  }
+},
+{
+  "model": "products.product",
+  "pk": 4,
+  "fields": {
+    "slug": "elex_ezin",
+    "name": "Ezin",
+    "available": true,
+    "description": "",
+    "image": "default_product.jpg",
+    "category": "Laundry",
+    "qty_amount": "20L",
+    "price": 1600
+  }
+},
+{
+  "model": "products.product",
+  "pk": 5,
+  "fields": {
+    "slug": "elex_elesept",
+    "name": "Elesept",
+    "available": true,
+    "description": "",
+    "image": "default_product.jpg",
+    "category": "Disinfectants",
+    "qty_amount": "20L",
+    "price": 1600
+  }
+},
+{
+  "model": "products.product",
+  "pk": 6,
+  "fields": {
+    "slug": "elex_cerrazo",
+    "name": "Cerrazo",
+    "available": true,
+    "description": "",
+    "image": "default_product.jpg",
+    "category": "House",
+    "qty_amount": "20L",
+    "price": 1600
+  }
+},
+{
+  "model": "clients.purchaser",
+  "pk": 1,
+  "fields": {
+    "name": "Martin",
+    "phone": "0711457689",
+    "email": "mart@test.com",
+    "image": "default.png",
+    "data_added": "2020-08-04"
+  }
+},
+{
+  "model": "clients.purchaser",
+  "pk": 2,
+  "fields": {
+    "name": "Becky",
+    "phone": "0722334455",
+    "email": "becky@test.com",
+    "image": "default.png",
+    "data_added": "2020-08-04"
+  }
+},
+{
+  "model": "clients.purchaser",
+  "pk": 3,
+  "fields": {
+    "name": "Maggy",
+    "phone": "0733445566",
+    "email": "maggy@test.com",
+    "image": "default.png",
+    "data_added": "2020-08-04"
+  }
+},
+{
+  "model": "clients.purchasershippingdetail",
+  "pk": 1,
+  "fields": {
+    "frequent_customer": false,
+    "owner": "Becky",
+    "address": "",
+    "zip_code": "",
+    "description": "",
+    "county": "Nairobi",
+    "location": "Machakos",
+    "country": "Kenya"
+  }
+},
+{
+  "model": "clients.purchasershippingdetail",
+  "pk": 2,
+  "fields": {
+    "frequent_customer": false,
+    "owner": "Martin",
+    "address": "",
+    "zip_code": "",
+    "description": "",
+    "county": "Nairobi",
+    "location": "Machakos",
+    "country": "Kenya"
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 1,
+  "fields": {
+    "invoiceNo": "INV-0001",
+    "invoiceOwner": 1,
+    "product": "",
+    "mode": "Mpesa",
+    "date": "2020-08-04",
+    "quantity": 1,
+    "status": "Pending",
+    "payment_made": 0
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 2,
+  "fields": {
+    "invoiceNo": "INV-0002",
+    "invoiceOwner": 2,
+    "product": "",
+    "mode": "Mpesa",
+    "date": "2020-08-04",
+    "quantity": 1,
+    "status": "Pending",
+    "payment_made": 0
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 3,
+  "fields": {
+    "invoiceNo": "INV-0003",
+    "invoiceOwner": 3,
+    "product": "",
+    "mode": "Mpesa",
+    "date": "2020-08-04",
+    "quantity": 1,
+    "status": "Pending",
+    "payment_made": 0
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 4,
+  "fields": {
+    "invoiceNo": "INV-0004",
+    "invoiceOwner": 1,
+    "product": "Cerrazzo",
+    "mode": "Mpesa",
+    "date": "2020-08-04",
+    "quantity": 1,
+    "status": "Paid",
+    "payment_made": 2
+  }
+},
+{
+  "model": "clients.paymentinvoice",
+  "pk": 5,
+  "fields": {
+    "invoiceNo": "INV-0005",
+    "invoiceOwner": 3,
+    "product": "Sepit",
+    "mode": "Mpesa",
+    "date": "2020-08-04",
+    "quantity": 1,
+    "status": "Paid",
+    "payment_made": 2000
+  }
+}
+]
