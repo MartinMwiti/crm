@@ -14,7 +14,7 @@ SECRET_KEY = '(-gj^oigvfrdcf!=w#)io(#@&yj_jo7p%==4i-xy#(1a-bo&cw'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['crm-django-react-v1.herokuapp.com']
+ALLOWED_HOSTS = ['crm-django-react-v1.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
@@ -41,6 +41,7 @@ MIDDLEWARE = [
     
     'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware', # ADDED
+
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
